@@ -18,5 +18,7 @@ class App < Sinatra::Base
     @hereos = hero.all 
     
     erb :team
+    
+  end
 
 end
